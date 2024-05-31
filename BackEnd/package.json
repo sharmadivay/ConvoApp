@@ -1,0 +1,23 @@
+{
+  "name": "pdfconverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "divay",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx-pdf": "^0.0.1",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.2",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13"
+  }
+}
